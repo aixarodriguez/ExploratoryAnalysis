@@ -16,6 +16,6 @@ plot(Emission_Coal$Year,Emission_Coal$Total,
      col="green",
      xlab="Year",
      ylab="Emission",
-     main="Coal combustion-related sources changed from 1999–2008")
+     main="Coal combustion-related sources changed from 1999 to 2008")
 dev.copy(png,filename="plot4.png")
 dev.off()
